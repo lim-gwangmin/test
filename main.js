@@ -64,7 +64,7 @@ $(function() {
    const postData = async ({ count, date }) => {
       await $.ajax({
          method: "PATCH",
-         url: "./db.json/data",
+         url: "./db.json",
          async: false,
          data : { count, date }
       })
