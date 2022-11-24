@@ -1,5 +1,5 @@
 $.ajax({
-   url: "/db.json"
+   url: "./db.json"
 })
 .done( res => {
    console.log(res)
